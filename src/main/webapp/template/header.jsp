@@ -15,7 +15,7 @@
   <div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand" href="<c:url value = "/template/home.jsp"/>">Trang Chu</a>
+      <a class="navbar-brand" href="<c:url value = "/index.jsp"/>">Trang Chu</a>
 
       <!-- Links -->
       <ul class="navbar-nav">
@@ -29,7 +29,7 @@
           <a class="nav-link" href="<c:url value = "/list.jsp"/>">Download</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<c:url value = "/index.jsp"/>">Cart</a>
+          <a class="nav-link" href="<c:url value = "/download.jsp"/>">Cart</a>
         </li>
         <!-- Dropdown -->
 <%--        <li class="nav-item dropdown">--%>

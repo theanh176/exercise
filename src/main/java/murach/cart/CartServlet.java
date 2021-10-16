@@ -29,9 +29,9 @@ public class CartServlet extends HttpServlet {
         }
 
         // perform action and set URL to appropriate page
-        String url = "/index.jsp";
+        String url = "/download.jsp";
         if (action.equals("shop")) {            
-            url = "/index.jsp";    // the "index" page
+            url = "/download.jsp";    // the "index" page
         } 
         else if (action.equals("cart")) {
             String productCode = request.getParameter("productCode");

@@ -15,7 +15,7 @@
   <div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <!-- Brand -->
-      <a class="navbar-brand" href="<c:url value = "/index.jsp"/>">Trang Chu</a>
+      <a class="navbar-brand" href="<c:url value = "/home.jsp"/>">Trang Chu</a>
 
       <!-- Links -->
       <ul class="navbar-nav">
